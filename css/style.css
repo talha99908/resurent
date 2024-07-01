@@ -1,0 +1,184 @@
+*{
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+header{
+    background-color: #4a004e;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+nav .logo{
+width: 30%;
+}
+nav .menu{
+    width: 70%;
+}
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem;
+}
+#home{
+    background-color: #bc94be;
+}
+
+section#home {
+    background: #f4f4f4;
+}
+
+section#menu .menu-item {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color:black;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+#work .workcard{
+    width: 25%;
+    position: relative;
+}
+#work .workcard h4{
+    height: 800;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+}
+#work .workcard p{
+    height: 400;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+}
+#work .workcard img{
+    width: 100%;
+    display: block;
+}
+#work .workcard .overlay{
+    background-color: rgba(0, 0, 0, 0.58);
+    position: absolute;
+    top: 28px;
+    bottom: 28px;
+    left: 21px;
+    right: 21px;
+    color: white;
+    padding: 61px 29px;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 80px;
+
+}
+#work .workcard:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0;
+    transition:0.5s ;
+}
+#banner{
+    text-transform: uppercase;
+    text-align: center;
+    background-image: url(../image\ food\ .jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    text-align: center;
+    padding-top: 180px;
+}
+#banner .banner_cnt h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ccc;
+
+}
+#banner .banner_cnt h1{
+    font-size: 52px;
+    font-weight: 800;
+    color: #ccc;
+    letter-spacing: 20px;
+}
+#banner .banner_cnt p{
+    font-size: 16px;
+    font-weight: 100;
+    color: #ccc;
+    padding-bottom: 50px;
+}
+#banner .banner_cnt img{
+   padding-top: 50px;
+}
+
+.btn{
+ text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  color: white;
+  background-color: #4a004e;
+  padding: 19px 43px;
+  text-decoration: none;
+  display: inline-block;
+}
+.btn:hover{
+text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  color: black;
+  background-color: white;
+  padding: 25px 46px;
+  display: inline-block;
+  text-decoration: solid;
+  transition: 0.5s;
+  border: 1px solid black;
+  border-radius: 30px;
+background: #e0e0e0;}
+#menu .menu-item{
+    opacity: 0.5;
+    background-image: url(../image\ food\ .jpg);
+    font-family: arial black;
+    font-weight: 800;
+    padding: 30px;
+}
+#menu .menu-item:hover{
+    opacity: 1;
+    border: 1px solid black;
+    padding: 25px;
+    transition: 0.5s;
+    text-align: center;
+}
